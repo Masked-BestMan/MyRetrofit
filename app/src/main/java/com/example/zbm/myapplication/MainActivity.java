@@ -12,7 +12,7 @@ import java.util.Map;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity implements extends AppCompatActivity {
     @BindView(R.id.tv)
     TextView tv;
 
